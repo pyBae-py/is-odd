@@ -1,13 +1,10 @@
 {
-  "name": "is-even",
+  "name": "sajeel-is-even",
   "version": "1.0.0",
   "description": "A Node Module which allows its user to confirm that the number passed as an argument is an even number or not",
   "main": "index.js",
   "homepage": "git@github.com:pyBae-py/is-odd.git",
-  "repository": {
-    "url": "git@github.com:pyBae-py/is-odd.git",
-    "type": "git"
-  },
+  "repository": "git@github.com:pyBae-py/is-odd.git",
   "author": "pyBae-py <sajeel.ahmed@protonmail.com>",
   "license": "MIT",
   "private": false,
@@ -23,6 +20,6 @@
     "bin/*.js"
   ],
   "bin": {
-    "is-even-cli": "bin/is-even-cli.js"
+    "sajeel-is-even-cli": "bin/sajeel-is-even-cli.js"
   }
 }
