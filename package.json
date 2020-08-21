@@ -3,8 +3,26 @@
   "version": "1.0.0",
   "description": "A Node Module which allows its user to confirm that the number passed as an argument is an even number or not",
   "main": "index.js",
-  "repository": "git@github.com:pyBae-py/is-odd.git",
+  "homepage": "git@github.com:pyBae-py/is-odd.git",
+  "repository": {
+    "url": "git@github.com:pyBae-py/is-odd.git",
+    "type": "git"
+  },
   "author": "pyBae-py <sajeel.ahmed@protonmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "keywords": [
+    "even",
+    "maths",
+    "numbers"
+  ],
+  "bugs": "https://github.com/pyBae-py/is-odd/issues",
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "bin/*.js"
+  ],
+  "bin": {
+    "is-even-cli": "bin/is-even-cli.js"
+  }
 }
