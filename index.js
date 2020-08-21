@@ -1,6 +1,7 @@
 "use strict";
 
-const isEven = (value) => {
+const isEven = (argValue) => {
+  const value = Math.abs(argValue);
   if (typeof value !== "number") {
     throw new TypeError("Expected a number");
   }
