@@ -15,4 +15,4 @@ const isEven = (argValue) => {
   return value % 2 === 1;
 };
 
-module.export = isEven;
+module.exports = isEven;
