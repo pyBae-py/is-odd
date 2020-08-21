@@ -12,7 +12,11 @@ const isEven = (argValue) => {
     throw new TypeError("The entered number exceeds maximum safe integer");
   }
 
-  return value % 2 === 1;
+  if (value % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 module.exports = isEven;
