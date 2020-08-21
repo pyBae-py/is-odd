@@ -1,0 +1,10 @@
+{
+  "name": "is-even",
+  "version": "1.0.0",
+  "description": "A Node Module which allows its user to confirm that the number passed as an argument is an even number or not",
+  "main": "index.js",
+  "repository": "git@github.com:pyBae-py/is-odd.git",
+  "author": "pyBae-py <sajeel.ahmed@protonmail.com>",
+  "license": "MIT",
+  "private": false
+}
