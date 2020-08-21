@@ -1,6 +1,6 @@
 {
   "name": "sajeel-is-even",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node Module which allows its user to confirm that the number passed as an argument is an even number or not",
   "main": "index.js",
   "homepage": "git@github.com:pyBae-py/is-odd.git",
